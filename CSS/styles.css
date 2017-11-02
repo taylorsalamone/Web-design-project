@@ -1,12 +1,10 @@
-header {
-  background-color: #263d36;
-  background-image: "web-design-project/header.jpg";
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.2;
-  padding: 10vw 2em;
-  text-align: center;
+.header h1 {
+  position: relative;
+  top:-275px;
+  left:130px;
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 body {
@@ -15,27 +13,18 @@ body {
   font-family: "Georgia", serif;
   color: #555;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 3em 1em;
+}
 
+.body img {
+  width: 100px;
+  height: 100px;
+  background: #555;
 }
 
 h2 {
   margin-top: 1em;
-  padding-top: 1em;
+  padding-top: .5em;
   strong {
     color: #333;
-}
-
-code,
-pre {
-  background: #eee;
-}
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
-
-pre {
-  padding: 1em;
 }
