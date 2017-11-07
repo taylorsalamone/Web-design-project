@@ -1,14 +1,3 @@
-.header h1 {
-  position: relative;
-  top:-275px;
-  left:200px;
-  width: 100%;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  padding: 0em;
-  margin-bottom: -0.5em;
-}
-
 body {
   margin: 0 auto;
   max-width: 50em;
@@ -19,7 +8,32 @@ body {
   padding: 3em 1em;
 }
 
-p1 {margin-top: -300px;}
+.header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  position: relative;
+  top:-275px;
+  left:200px;
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 0em;
+  margin-bottom: -0.5em;
+  margin: auto;
+  font-size: 300%;
+}
+
+.header img {
+  width: 60em;
+  height: 30em;
+  position: relative;
+}
+
+/*.p1 {margin-top: -300px;}*/
 .body {padding: 0em}
 .footer {padding: 2em 0em;
 text-decoration: underline;}
@@ -38,3 +52,8 @@ h2 {
   strong {
     color: #333;
 }
+
+/*.body-image img {
+  width: 100px;
+  height: 100px;
+}*/
